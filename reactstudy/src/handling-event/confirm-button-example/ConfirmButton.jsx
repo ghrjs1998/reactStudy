@@ -7,7 +7,7 @@ class ConfirmButton extends React.Component {
         this.state = {
             isConfirmed: false,
         };
-
+        // callback에서 this를 사용하기 위해서는 바인딩을 필수적으로 해줘야 함
         this.handleConfirm = this.handleConfirm.bind(this)
     }
 
@@ -28,3 +28,4 @@ class ConfirmButton extends React.Component {
 }
 
 export default ConfirmButton
+

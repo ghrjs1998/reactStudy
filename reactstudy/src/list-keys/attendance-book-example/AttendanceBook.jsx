@@ -21,6 +21,10 @@ const students = [
         id: 5,
         name: "Kang"
     },
+    {
+        id: 6,
+        name: "Yoon"
+    },
 ]
 
 function AttendanceBook(props) {

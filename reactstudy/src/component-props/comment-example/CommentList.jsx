@@ -14,6 +14,18 @@ const comment = [
         name: "Lee",
         comment: "안녕하세요 Lee입니다"
     },
+    {
+        name: "Ban",
+        comment: "안녕하세요 Ban입니다"
+    },
+    {
+        name: "Kang",
+        comment: "안녕하세요 Kang입니다"
+    },
+    {
+        name: "Yoon",
+        comment: "안녕하세요 Yoon입니다"
+    },
 ]
 
 function CommentList(props){

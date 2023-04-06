@@ -11,13 +11,25 @@ import NotificationList from "./state-lifecycle/notification-example/Notificatio
 import LandingPage from "./conditional-rendering/toolbar-example/LandingPage";
 import AttendanceBook from "./list-keys/attendance-book-example/AttendanceBook";
 import SignUp from "./forms/sign-up-example/SignUp";
+import Calculator from "./lifting-state-up/temperature-input-example/Calculator";
+import ProfileCard from "./composition-inheritance/card-example/ProfileCard";
+import DarkOrLight from "./context/theme-context-example/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <ProfileCard />
   </React.StrictMode>
 );
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// setInterval(() => {
+//   root.render(
+//     <React.StrictMode>
+//       <Clock />
+//     </React.StrictMode>
+//   );
+// }, 1000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
